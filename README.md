@@ -2,15 +2,31 @@
 
 ## 1. Introduction
 
-This is your personal repository for the OTJ project. **Do not create any projects until requested by your teacher!**
-
-## 2. Project definition & links
-
-You're required to follow and implement the bare minimum of functionality as per your assignment. You're free to extend the project and add more features.
-
-[Assignment's README](https://github.com/codingburgas/2223-otj-12-project-definition)
-
-The README will be updated frequently to reflect every stage of the project.
+<p align="center">
+<img src="logo.png" width="100" title="hover text">
+<h1>Smart Greenhouse project, built with Arduino sensors</h1>
+My name is Jacqueline!
+</p>
 
 
-**Note:** if you receive error 404, please ensure you're logged in GitHub. Be sure to clear stale credentials in Credential Manager (Windows). If you still receive 404, please contact your teacher.
+<!-- ABOUT THE PROJECT -->
+## 💻About The Project
+
+## 👨‍💻Instalation 
+Download the project from [github](https://github.com/codingburgas/class-2018-projects-csharp-zoyordanova18) by pressing the green clone button.
+
+## 🛠Built With
+
+
+* [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+* [C++](https://cplusplus.com/)
+* [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+* [Visual Studio](https://visualstudio.microsoft.com/)
+* [Powerpoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
+* [Word](https://www.microsoft.com/bg-bg/microsoft-365/word)
+
+
+
+## 🚧 Roadmap
+See the [to do](https://github.com/codingburgas/class-2018-projects-csharp-zoyordanova18/issues) list and [milestones](https://github.com/codingburgas/class-2018-projects-csharp-zoyordanova18/issues) for this project
+
