@@ -46,46 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AddGardenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\GardenCharacteristicsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\GardensPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DataBase\Sql.cs" />
     <Compile Include="Enums\TypeOfGreenHouse.cs" />
-    <Compile Include="Forms\AddGardenForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddGardenForm.Designer.cs">
-      <DependentUpon>AddGardenForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\GardenCharacteristicsPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\GardenCharacteristicsPage.Designer.cs">
-      <DependentUpon>GardenCharacteristicsPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\GardensPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\GardensPage.Designer.cs">
-      <DependentUpon>GardensPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\LoginPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\LoginPage.Designer.cs">
-      <DependentUpon>LoginPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\GreenHouse.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\AddGardenForm.resx">
+    <Compile Include="Properties\View\AddGardenForm.Designer.cs" />
+    <Compile Include="Properties\View\GardenCharacteristicsPage.Designer.cs" />
+    <Compile Include="Properties\View\GardensPage.Designer.cs" />
+    <Compile Include="Properties\View\LoginPage.Designer.cs" />
+    <EmbeddedResource Include="Controllers\AddGardenForm.resx">
       <DependentUpon>AddGardenForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GardenCharacteristicsPage.resx">
+    <EmbeddedResource Include="Controllers\GardenCharacteristicsPage.resx">
       <DependentUpon>GardenCharacteristicsPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\GardensPage.resx">
+    <EmbeddedResource Include="Controllers\GardensPage.resx">
       <DependentUpon>GardensPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LoginPage.resx">
+    <EmbeddedResource Include="Controllers\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -108,12 +100,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Properties\View\.vs\ProjectSettings.json" />
+    <None Include="Properties\View\.vs\slnx.sqlite" />
+    <None Include="Properties\View\.vs\View\FileContentIndex\9cbe24a8-526f-4656-9a17-78bdb9441480.vsidx" />
+    <None Include="Properties\View\.vs\View\FileContentIndex\read.lock" />
+    <None Include="Properties\View\.vs\View\v17\.wsuo" />
+    <None Include="Properties\View\.vs\VSWorkspaceState.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Folder Include="Properties\View\.vs\View\FileContentIndex\merges\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\green cross.png" />
+    <Content Include="Resources\green.png" />
+    <Content Include="Resources\logo.png" />
+    <Content Include="Resources\op.jpg" />
+    <Content Include="Resources\white line.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
